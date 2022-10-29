@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+  <object Name="Dazzle Cheek" Inherits="BaseMask">
+    <part Name="Armor" AV="0" DV="1" />
+    <part Name="Render" DisplayName="dazzle cheek" RenderString="]" Tile="Items/sw_mask2.png" ColorString="&amp;K" DetailColor="m" />
+    <part Name="Commerce" Value="420" />
+    <part Name="Description" Short="A metal mask with colors moving in hypnagogic patterns." />
+    <!-- todo:jason -->
+    <part Name="Physics" Weight="1" />
+    <part Name="ZeroPointEnergyCollector" ChargeRate="10" World="JoppaWorld,OrbWorld" />
+    <part Name="Circuitry" />
+    <part Name="PowerSwitch" EnergyCost="0" FlippableWithoutUnderstanding="true" ActivateSuccessMessage="" ActivateFailureMessage="" DeactivateSuccessMessage="" DeactivateFailureMessage="" />
+    <part Name="EquipStatBoost" Boosts="DV:3;MA:-1" ChargeUse="5" IsEMPSensitive="true" IsPowerSwitchSensitive="true" IsPowerLoadSensitive="true" NameForStatus="DazzleCamouflageSystem" />
+    <part Name="AddsRep" Faction="highly entropic beings" Value="100" IsPowerSwitchSensitive="true" NeedsOtherActivePartOperational="EquipStatBoost" NameForStatus="HypnoticGenerator" />
+    <part Name="Examiner" AlternateDisplayName="strange mask" Complexity="5" Difficulty="1" />
+    <part Name="TinkerItem" Bits="3478" CanDisassemble="true" CanBuild="true" />
+    <part Name="Metal" />
+    <tag Name="Mods" Value="MaskMods,CommonMods,ElectronicsMods" />
+    <tag Name="Tier" Value="8" />
+    <part Name="AnimatedMaterialGeneric" AnimationLength="220" TileAnimationFrames="0=Items/sw_dazzle_cheek/00.png,8=Items/sw_dazzle_cheek/01.png,16=Items/sw_dazzle_cheek/02.png,24=Items/sw_dazzle_cheek/03.png,32=Items/sw_dazzle_cheek/04.png,40=Items/sw_dazzle_cheek/05.png,48=Items/sw_dazzle_cheek/06.png,56=Items/sw_dazzle_cheek/07.png,64=Items/sw_dazzle_cheek/08.png,72=Items/sw_dazzle_cheek/09.png,80=Items/sw_dazzle_cheek/10.png,88=Items/sw_dazzle_cheek/11.png,96=Items/sw_dazzle_cheek/12.png,104=Items/sw_dazzle_cheek/13.png,112=Items/sw_dazzle_cheek/14.png,120=Items/sw_dazzle_cheek/15.png,128=Items/sw_dazzle_cheek/16.png,136=Items/sw_dazzle_cheek/17.png,144=Items/sw_dazzle_cheek/18.png,152=Items/sw_dazzle_cheek/19.png,160=Items/sw_dazzle_cheek/20.png,168=Items/sw_dazzle_cheek/21.png,176=Items/sw_dazzle_cheek/22.png,184=Items/sw_dazzle_cheek/23.png,192=Items/sw_dazzle_cheek/24.png,200=Items/sw_dazzle_cheek/25.png,208=Items/sw_dazzle_cheek/26.png,216=Items/sw_dazzle_cheek/27.png" DetailColorAnimationFrames="32=M, 40=M, 48=M, 56=M, 64=Y, 72=M, 80=M, 88=m"/>
+  </object>
+</objects>

@@ -1,0 +1,10 @@
+{
+	"id": "DazzlingResprite",
+	"loadorder": 0,
+	"title": "{{glittering|DazzlingResprite}}",
+	"description": "Changes the sprite of dazzle cheeks to give them a looping pattern. Thanks to Clau for helping me put this together, and egocarib for letting me reference their code.",
+	"tags": "Cosmetic,Sprite",
+	"version": "0.5",
+	"author": "{{sphynx|Lamb}}",
+	"previewImage": "preview.png"
+}
